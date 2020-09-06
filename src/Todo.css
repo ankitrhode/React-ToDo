@@ -1,0 +1,49 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(248, 248, 248);
+  border-radius: 15px;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.todo > h1 {
+  color: black;
+  font-size: medium;
+  text-align: start;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.todo__buttons {
+  display: flex;
+}
+
+.todo__button1 {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: medium;
+  font-weight: bold;
+  background-color: green;
+  border: 2px solid coral;
+  margin-right: 20px;
+}
+
+.todo__button2 {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: medium;
+  font-weight: bold;
+  background-color: red;
+  border: 2px solid coral;
+  margin-right: 20px;
+}
+
+.todo__button1:hover {
+  cursor: pointer;
+}
+
+.todo__button2:hover {
+  cursor: pointer;
+}
